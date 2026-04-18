@@ -25,17 +25,6 @@
                 {{ getStatusText(competition.status) }}
               </span>
             </div>
-
-            <div class="absolute bottom-4 left-4 right-4 flex items-center justify-between gap-3 text-sm">
-              <div class="flex items-center gap-2 text-gray-200/90 min-w-0">
-                <i class="fa-regular fa-calendar"></i>
-                <span class="truncate">{{ formatRange(competition.start_time, competition.end_time) }}</span>
-              </div>
-              <div v-if="competition.prize_pool" class="flex items-center gap-2 text-gray-200/90 whitespace-nowrap">
-                <i class="fa-solid fa-coins"></i>
-                <span>{{ competition.prize_pool }}</span>
-              </div>
-            </div>
           </div>
           <div class="p-6">
             <h3 class="text-xl font-bold mb-2 group-hover:text-brand-cyan transition-colors">
