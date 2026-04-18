@@ -25,6 +25,7 @@
               <a href="#" class="hover:text-brand-cyan transition-colors px-3 py-2 rounded-md text-sm font-medium" @click.prevent="$router.push('/team')">核心团队</a>
               <a href="#" class="hover:text-brand-cyan transition-colors px-3 py-2 rounded-md text-sm font-medium" @click.prevent="$router.push('/events')">精彩活动</a>
               <a href="#" class="hover:text-brand-cyan transition-colors px-3 py-2 rounded-md text-sm font-medium" @click.prevent="$router.push('/competitions')">竞赛信息</a>
+              <a href="#" class="hover:text-brand-cyan transition-colors px-3 py-2 rounded-md text-sm font-medium" @click.prevent="$router.push('/resources')">学习资源</a>
               <a href="#" class="bg-white/10 hover:bg-brand-primary hover:text-white border border-white/10 text-white px-5 py-2 rounded-full text-sm font-medium transition-all duration-300 shadow-lg hover:shadow-brand-primary/50" @click.prevent="$router.push('/join')">
                 加入我们
               </a>
@@ -48,6 +49,7 @@
           <a href="#" class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium" @click.prevent="$router.push('/team'); toggleMobileMenu">核心团队</a>
           <a href="#" class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium" @click.prevent="$router.push('/events'); toggleMobileMenu">精彩活动</a>
           <a href="#" class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium" @click.prevent="$router.push('/competitions'); toggleMobileMenu">竞赛信息</a>
+          <a href="#" class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium" @click.prevent="$router.push('/resources'); toggleMobileMenu">学习资源</a>
           <a href="#" class="text-brand-cyan block px-3 py-2 rounded-md text-base font-medium font-bold" @click.prevent="$router.push('/join'); toggleMobileMenu">加入我们</a>
         </div>
       </div>
@@ -69,6 +71,9 @@
       </a>
       <a href="#" class="nav-dot group relative w-3 h-3 rounded-full border border-white/50 bg-transparent hover:bg-white/20" @click.prevent="$router.push('/competitions')">
         <span class="nav-tooltip absolute right-6 top-1/2 -translate-y-1/2 bg-white/10 px-2 py-1 rounded text-xs text-white whitespace-nowrap backdrop-blur">竞赛</span>
+      </a>
+      <a href="#" class="nav-dot group relative w-3 h-3 rounded-full border border-white/50 bg-transparent hover:bg-white/20" @click.prevent="$router.push('/resources')">
+        <span class="nav-tooltip absolute right-6 top-1/2 -translate-y-1/2 bg-white/10 px-2 py-1 rounded text-xs text-white whitespace-nowrap backdrop-blur">资源</span>
       </a>
       <a href="#" class="nav-dot group relative w-3 h-3 rounded-full border border-white/50 bg-transparent hover:bg-white/20" @click.prevent="$router.push('/join')">
         <span class="nav-tooltip absolute right-6 top-1/2 -translate-y-1/2 bg-white/10 px-2 py-1 rounded text-xs text-white whitespace-nowrap backdrop-blur">加入</span>
@@ -111,6 +116,7 @@
               <li><a href="#" class="hover:text-brand-primary transition-colors" @click.prevent="$router.push('/about')">关于我们</a></li>
               <li><a href="#" class="hover:text-brand-primary transition-colors" @click.prevent="$router.push('/events')">近期活动</a></li>
               <li><a href="#" class="hover:text-brand-primary transition-colors" @click.prevent="$router.push('/competitions')">竞赛信息</a></li>
+              <li><a href="#" class="hover:text-brand-primary transition-colors" @click.prevent="$router.push('/resources')">学习资源</a></li>
               <li><a href="#" class="hover:text-brand-primary transition-colors" @click.prevent="$router.push('/team')">核心团队</a></li>
               <li><a href="#" class="hover:text-brand-primary transition-colors" @click.prevent="$router.push('/join')">加入招新群</a></li>
             </ul>

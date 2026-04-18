@@ -26,12 +26,15 @@
         来自安徽工程大学，我们致力于打造开放、共享、创新的技术交流平台，探索 Web3 的无限边界。
       </p>
       
-      <div class="flex flex-col sm:flex-row justify-center gap-4">
+      <div class="flex flex-col sm:flex-row flex-wrap justify-center gap-4">
         <a href="#" class="px-8 py-4 rounded-full bg-gradient-to-r from-brand-primary to-brand-accent text-white font-bold text-lg hover:scale-105 transition-transform shadow-lg shadow-brand-primary/40" @click.prevent="$router.push('/join')">
           加入社区 <i class="fa-solid fa-arrow-right ml-2"></i>
         </a>
         <a href="#" class="px-8 py-4 rounded-full glass text-white font-medium text-lg hover:bg-white/10 transition-colors" @click.prevent="$router.push('/about')">
           了解更多
+        </a>
+        <a href="#" class="px-8 py-4 rounded-full glass text-white font-medium text-lg hover:bg-white/10 transition-colors border border-brand-cyan/30" @click.prevent="$router.push('/resources')">
+          学习资源
         </a>
       </div>
     </div>

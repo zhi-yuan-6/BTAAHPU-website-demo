@@ -30,6 +30,11 @@ const router = createRouter({
       component: () => import('../views/Competitions.vue')
     },
     {
+      path: '/resources',
+      name: 'resources',
+      component: () => import('../views/Resources.vue')
+    },
+    {
       path: '/join',
       name: 'join',
       component: () => import('../views/Join.vue')
